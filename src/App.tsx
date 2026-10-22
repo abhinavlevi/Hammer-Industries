@@ -50,7 +50,7 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#070d19] text-slate-100 flex flex-col selection:bg-emerald-600 selection:text-white">
+    <div className="min-h-screen bg-[#f8fafc] text-slate-900 flex flex-col selection:bg-emerald-600 selection:text-white">
       {/* Vercel Analytics */}
       <Analytics />
 
@@ -65,22 +65,22 @@ export const App: React.FC = () => {
       {/* Main Studio Area */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
         {/* Banner Announcement */}
-        <div className="mb-8 p-4 rounded-2xl bg-gradient-to-r from-emerald-950/40 via-slate-900/60 to-slate-900/40 border border-emerald-500/20 flex flex-wrap items-center justify-between gap-4 backdrop-blur-sm">
+        <div className="mb-8 p-4 rounded-2xl bg-white border border-slate-200 shadow-xs flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="p-2 rounded-xl bg-emerald-900/30 border border-emerald-500/30 text-emerald-400">
+            <div className="p-2 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800">
               <Sparkles className="w-5 h-5" />
             </div>
             <div>
-              <h2 className="text-sm font-bold text-slate-100 font-mono tracking-wide">
+              <h2 className="text-sm font-bold text-slate-900 font-mono tracking-wide">
                 HAMMER ADVANCED WEAPONS SYSTEMS // CREDENTIAL GENERATOR
               </h2>
-              <p className="text-xs text-slate-400 mt-0.5">
+              <p className="text-xs text-slate-600 mt-0.5">
                 Authorized defense contractor identification studio. Authentic screen-accurate prop replica with 3× print export.
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-3 text-xs font-mono text-emerald-400 bg-slate-950/60 px-3 py-1.5 rounded-xl border border-slate-800">
-            <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+          <div className="flex items-center gap-2 text-xs font-mono text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-xl border border-emerald-200 font-semibold">
+            <CheckCircle2 className="w-4 h-4 text-emerald-700" />
             <span>CR-80 SPECIFICATION READY</span>
           </div>
         </div>
@@ -109,45 +109,45 @@ export const App: React.FC = () => {
         </div>
 
         {/* Technical Architecture & Prop Specification Section */}
-        <section className="mt-16 pt-12 border-t border-slate-800/80">
+        <section className="mt-16 pt-12 border-t border-slate-200">
           <div className="flex items-center gap-2 mb-6">
-            <Terminal className="w-5 h-5 text-emerald-400" />
-            <h3 className="text-sm font-mono font-bold tracking-wider uppercase text-slate-300">
+            <Terminal className="w-5 h-5 text-emerald-700" />
+            <h3 className="text-sm font-mono font-bold tracking-wider uppercase text-slate-800">
               Technical Credential Architecture &amp; Physical Specifications
             </h3>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Spec Card 1 */}
-            <div className="p-5 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-2">
-              <div className="flex items-center gap-2 text-emerald-400 font-mono text-xs font-bold">
-                <FileCode className="w-4 h-4" />
+            <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
+              <div className="flex items-center gap-2 text-emerald-800 font-mono text-xs font-bold">
+                <FileCode className="w-4 h-4 text-emerald-700" />
                 <span>CR-80 &amp; ISO 7810 FORM FACTOR</span>
               </div>
-              <p className="text-xs text-slate-400 leading-relaxed">
+              <p className="text-xs text-slate-600 leading-relaxed">
                 Standard CR-80 credit-card dimensions (3.370 × 2.125 inches / 85.6 × 53.98 mm) mapped to 320×490 px vertical and 500×315 px horizontal viewports. Dual-sided registration conforms to standard PVC card sublimation printers.
               </p>
             </div>
 
             {/* Spec Card 2 */}
-            <div className="p-5 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-2">
-              <div className="flex items-center gap-2 text-emerald-400 font-mono text-xs font-bold">
-                <Cpu className="w-4 h-4" />
+            <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
+              <div className="flex items-center gap-2 text-emerald-800 font-mono text-xs font-bold">
+                <Cpu className="w-4 h-4 text-emerald-700" />
                 <span>SMART CHIP &amp; HOLOGRAPHIC FOIL</span>
               </div>
-              <p className="text-xs text-slate-400 leading-relaxed">
+              <p className="text-xs text-slate-600 leading-relaxed">
                 Features ISO/IEC 7816 contact pad trace geometries, 13.56 MHz RFID proximity indicator glyphs, and dynamic angle-specular iridescent holographic foil authentication seals.
               </p>
             </div>
 
             {/* Spec Card 3 */}
-            <div className="p-5 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-2">
-              <div className="flex items-center gap-2 text-emerald-400 font-mono text-xs font-bold">
-                <ShieldAlert className="w-4 h-4" />
+            <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
+              <div className="flex items-center gap-2 text-emerald-800 font-mono text-xs font-bold">
+                <ShieldAlert className="w-4 h-4 text-emerald-700" />
                 <span>3× ULTRA-HD RESOLUTION EXPORT</span>
               </div>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Direct rasterization via <code className="text-emerald-300 font-mono text-[11px]">html-to-image</code> at <code className="text-emerald-300 font-mono text-[11px]">pixelRatio: 3</code> produces 960×1470 px and 1500×945 px PNGs with zero font distortion or subpixel scaling artifacts.
+              <p className="text-xs text-slate-600 leading-relaxed">
+                Direct rasterization via <code className="text-emerald-800 bg-emerald-50 px-1 py-0.5 rounded font-mono text-[11px]">html-to-image</code> at <code className="text-emerald-800 bg-emerald-50 px-1 py-0.5 rounded font-mono text-[11px]">pixelRatio: 3</code> produces 960×1470 px and 1500×945 px PNGs with zero font distortion or subpixel scaling artifacts.
               </p>
             </div>
           </div>
@@ -155,13 +155,13 @@ export const App: React.FC = () => {
       </main>
 
       {/* Corporate Footer */}
-      <footer className="mt-16 border-t border-slate-800/80 bg-slate-950/80 py-8 text-xs text-slate-500 font-mono">
+      <footer className="mt-16 border-t border-slate-200 bg-white py-8 text-xs text-slate-600 font-mono">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <img
-              src="/presets/logo_white.png"
+              src="/presets/logo_dark.png"
               alt="Hammer Logo"
-              className="h-5 w-auto opacity-60"
+              className="h-5 w-auto opacity-70"
             />
             <span>HAMMER ADVANCED WEAPONS SYSTEMS • QUEENS, NY • CLASSIFIED ASSET</span>
           </div>
