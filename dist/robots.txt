@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hammer-industries-security.vercel.app/sitemap.xml
